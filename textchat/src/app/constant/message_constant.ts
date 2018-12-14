@@ -1,0 +1,20 @@
+export default {
+    FALIURE : 'FALIURE',
+    ERROR : 'ERROR',
+    SUCESS : 'SUCESS',
+    INVALID_RESOURCE_ID : 'invalid resource id',
+    NONE : 'none',
+    DISCONNECTED : 'DISCONNECTED',
+    FAILED : 'FAILED',
+    READY : 'READY',
+    RETRYING : 'RETRYING',
+    FAILEDVERSION : 'FAILEDVERSION',
+    NOTAVAILABLE : 'NOTAVAILABLE',
+    UNABLE_TO_JOIN : 'Unable to join the meeting',
+    DISPLAY_NAME_ERROR_MSG : 'Please enter valid alphanumeric characters at Display Name.',
+    RESOURCE_ID_ERROR_MSG : 'Please enter valid alphanumeric characters at Resource ID.',
+    HOST_NAME_ERROR_MSG : 'Please enter valid Host.',
+    TOKEN_ERROR_MSG : 'Please enter valid Token.',
+    VIDYO_CONNECTORDISCONNECTREASON_MiscError : 'Misc Error Occured',
+    VIDYO_CONNECTORFAILREASON_InvalidToken : 'Invalid token'
+};

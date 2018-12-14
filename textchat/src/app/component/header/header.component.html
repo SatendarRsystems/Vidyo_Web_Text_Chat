@@ -1,0 +1,20 @@
+<header>
+  <div class="logo mobile-device">
+    <img src='assets/images/userlist-logo.png'>
+  </div>
+  <!--Resource ID-->
+  <div class="username mobile-device">
+    <span>Resource ID</span>{{vidyoClientService.meetingRoom}}</div>
+  <!--Total Participants-->
+  <div class="username mobile-device">
+    <span>Total Participants</span>({{vidyoClientService.users.length}})</div>
+  <!--Display name-->
+  <div class="username">
+    <span>Display Name</span>{{vidyoClientService.userName}}</div>
+  <!--Logout-->
+  <div class="logout">
+    <a (click)="logout()">
+      <img src="assets/images/logout.png" tabindex="3" (keyup.enter)="logout()"/>
+    </a>
+  </div>
+</header>
